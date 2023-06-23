@@ -1,0 +1,48 @@
+.headerContainer{
+  //controle da altura entre o manu e o conteudo abaixo
+  height: 19.5rem;
+  position: sticky;
+  top: 0;
+}
+
+.img{
+  margin-left: 5rem;
+  cursor: pointer;
+}
+
+.divMenu {
+ 
+  top: 280px;
+
+  nav{
+    margin-left: 37rem;
+    height: 10rem;
+    a{
+      display: inline-block;
+      position: relative;
+      padding: 0 0.5rem;
+      height: 6rem;
+      line-height: 1rem;
+      transition: color 0.3s;
+      
+      & + a{
+        margin-left: 10rem;
+      }
+      
+      &:hover{
+        color: aqua;
+      } 
+
+      &.active{
+        color: antiquewhite;
+        font-weight: bold;
+      }
+
+    }
+  }
+}
+
+.imgCentro{
+  margin-left: 5.5rem;
+  cursor: pointer;
+}
