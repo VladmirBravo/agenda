@@ -2,6 +2,7 @@ import { Image } from "react-bootstrap";
 import styles from './styles.module.scss';
 import Nav from 'react-bootstrap/Nav';
 import Link from "next/link";
+import { ActiveLink } from "../ActiveLink/page";
 
 export function Header() {
   return (
@@ -19,28 +20,19 @@ export function Header() {
 
         <div className={styles.divMenu}>
           <nav>
-            <Link href="/">
-              Home
-            </Link>
-            <Link href="/">
-              Informações Úteis
-            </Link>
-            <Link href="/">
-              FAQ's
-            </Link>
+            <ActiveLink href="/" activeClassName={styles.active}>
+              <a>Home</a>
+            </ActiveLink>
+            <ActiveLink href="/informacao" activeClassName={styles.active}>
+              <a>Informações Úteis </a>
+              </ActiveLink>
+              <ActiveLink href="/faq" activeClassName={styles.active}>
+              <a>FAQ's</a>
+            </ActiveLink>
           </nav>
         </div>
       </header>
-      <a>
-
-        <div className={styles.imgCentro}>
-          <Image
-            width="93.8%"
-            alt=""
-            src="/Mulher.jpg"
-          ></Image>
-        </div>
-      </a>
+      
     </>
   )
 }

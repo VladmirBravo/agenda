@@ -2,10 +2,23 @@
 "use client"
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Inter } from 'next/font/google'
-import { Menu } from './components/Menu/page';
+import { Inter, Montserrat } from 'next/font/google'
 import { Header } from "./components/Header/page";
-const inter = Inter({ subsets: ['latin'] })
+import '../app/styles/global.scss'
+import Head from "next/head";
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+})
+ 
+const montserrat = Montserrat({
+  weight: '800',
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+  display: 'swap',
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -19,8 +32,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Header/>
+      <Head>
+        <link rel="shortcut icon" href="" type="" /> 
+      </Head>
+      <body className={`${inter.variable} ${montserrat.variable}`}>
+        <Header />
         {children}
       </body>
     </html>

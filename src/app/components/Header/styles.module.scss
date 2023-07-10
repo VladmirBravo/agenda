@@ -1,48 +1,113 @@
-.headerContainer{
-  //controle da altura entre o manu e o conteudo abaixo
-  height: 19.5rem;
+.headerContainer {
+  //controle da altura entre o menu e o conteudo abaixo
+  height: 17.5rem;
   position: sticky;
   top: 0;
 }
 
-.img{
+.img {
   margin-left: 5rem;
   cursor: pointer;
 }
 
-.divMenu {
- 
+.divMenu {  
   top: 280px;
+  height: 3rem;
+  line-height: 3;
 
-  nav{
-    margin-left: 37rem;
+  margin-left: 5.4rem;
+  width: 89.1%;
+  display: flex;
+  align-items: center;
+
+  nav {
+    margin-left: 28rem;
     height: 10rem;
-    a{
-      display: inline-block;
+    
+    a {
       position: relative;
       padding: 0 0.5rem;
       height: 6rem;
       line-height: 1rem;
       transition: color 0.3s;
-      
-      & + a{
+      text-decoration: none;
+      color: white;
+
+      & + a {
         margin-left: 10rem;
       }
-      
-      &:hover{
-        color: aqua;
-      } 
 
-      &.active{
-        color: antiquewhite;
-        font-weight: bold;
+      &:hover {
+        color: black;
       }
 
+      &.active {
+        color: aqua;
+      }
     }
   }
 }
 
-.imgCentro{
+.imgCentro {
   margin-left: 5.5rem;
   cursor: pointer;
 }
+
+.teste{
+  background-color: aqua;
+  
+
+}
+
+@media (max-width: 1471px){
+  .headerContainer {
+    //controle da altura entre o menu e o conteudo abaixo
+    height: 10.5rem;
+    position: sticky;
+    top: 0;
+  }
+
+  .divMenu {  
+    nav {
+      margin-left: 25rem;
+    }
+  }
+}
+
+//Tela do monitor
+@media (max-width: 1398px){
+  .headerContainer {
+    //controle da altura entre o menu e o conteudo abaixo
+    height: 14.1rem;
+  }
+  .divMenu {  
+      height: 3.5rem;
+    nav {
+      margin-left: 20rem;
+    }
+  }
+
+  .img {
+    margin-left: 5.2rem;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1170px){
+  .headerContainer {
+    //controle da altura entre o menu e o conteudo abaixo
+    height: 5.5rem;
+    position: sticky;
+    top: 0;
+  }
+}
+
+@media (max-width: 880px){
+  .headerContainer {
+    //controle da altura entre o menu e o conteudo abaixo
+    height: 1rem;
+    position: sticky;
+    top: 0;
+  }
+}
+
