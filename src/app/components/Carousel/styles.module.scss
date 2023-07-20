@@ -1,0 +1,33 @@
+.carouselContainer{
+    
+    
+    width: 1245px;
+    position: fixed;
+    margin-left: auto;
+    margin: 89px;
+    margin-top: -15px;
+}
+
+.textcolor{
+    color: black;
+}
+
+@media (max-width: 392px) {
+    .carouselContainer{
+        width: 30rem;
+        height: 400rem;
+        margin-left: -25px;
+        margin-top: 65px;
+    }
+
+    .sizeComponent{
+    height: 170px;
+    width: 440px;
+    background-color: black;
+    
+    
+    
+}
+
+    
+  }

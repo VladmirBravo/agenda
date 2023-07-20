@@ -1,7 +1,9 @@
+import CarouselComponent from '@/app/components/Carousel/page';
+
 export default function Faq() {
     return (
      <>
-     <h1>TESTE</h1>
+       <CarouselComponent/>
      </>
     )
   }

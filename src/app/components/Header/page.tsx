@@ -17,14 +17,13 @@ export function Header() {
             ></Image>
           </a>
         </div>
-
         <div className={styles.divMenu}>
           <nav>
             <ActiveLink href="/" activeClassName={styles.active}>
               <a>Home</a>
             </ActiveLink>
             <ActiveLink href="/informacao" activeClassName={styles.active}>
-              <a>Informações Úteis </a>
+              <a>Informações Úteis</a>
               </ActiveLink>
               <ActiveLink href="/faq" activeClassName={styles.active}>
               <a>FAQ's</a>
@@ -32,7 +31,6 @@ export function Header() {
           </nav>
         </div>
       </header>
-      
     </>
   )
 }

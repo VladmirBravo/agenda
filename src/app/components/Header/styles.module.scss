@@ -10,7 +10,7 @@
   cursor: pointer;
 }
 
-.divMenu {  
+.divMenu {
   top: 280px;
   height: 3rem;
   line-height: 3;
@@ -21,9 +21,9 @@
   align-items: center;
 
   nav {
-    margin-left: 28rem;
+    margin-left: 36rem;
     height: 10rem;
-    
+
     a {
       position: relative;
       padding: 0 0.5rem;
@@ -33,7 +33,7 @@
       text-decoration: none;
       color: white;
 
-      & + a {
+      &+a {
         margin-left: 10rem;
       }
 
@@ -53,13 +53,11 @@
   cursor: pointer;
 }
 
-.teste{
+.teste {
   background-color: aqua;
-  
-
 }
 
-@media (max-width: 1471px){
+@media (max-width: 1471px) {
   .headerContainer {
     //controle da altura entre o menu e o conteudo abaixo
     height: 10.5rem;
@@ -67,7 +65,7 @@
     top: 0;
   }
 
-  .divMenu {  
+  .divMenu {
     nav {
       margin-left: 25rem;
     }
@@ -75,15 +73,17 @@
 }
 
 //Tela do monitor
-@media (max-width: 1398px){
+@media (max-width: 1482px) {
   .headerContainer {
     //controle da altura entre o menu e o conteudo abaixo
     height: 14.1rem;
   }
-  .divMenu {  
-      height: 3.5rem;
+
+  .divMenu {
+    height: 3.5rem;
+
     nav {
-      margin-left: 20rem;
+      margin-left: 24rem;
     }
   }
 
@@ -93,7 +93,7 @@
   }
 }
 
-@media (max-width: 1170px){
+@media (max-width: 1170px) {
   .headerContainer {
     //controle da altura entre o menu e o conteudo abaixo
     height: 5.5rem;
@@ -102,7 +102,7 @@
   }
 }
 
-@media (max-width: 880px){
+@media (max-width: 880px) {
   .headerContainer {
     //controle da altura entre o menu e o conteudo abaixo
     height: 1rem;
@@ -111,3 +111,52 @@
   }
 }
 
+//Mobile
+@media (max-width: 392px) {
+  .img {
+    margin-left: -5rem;
+    width: 463px;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .divMenu {
+    height: 3rem;
+    margin-left: 0rem;
+    nav {
+      margin-left: 7rem;
+      height: 7.8rem;
+      a {
+        font-size: x-small;
+        &+a {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}
+
+//Mobile
+@media (max-width: 414px) {
+  .img {
+    margin-left: -5rem;
+    width: 485px;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .divMenu {
+    height: 3rem;
+    margin-left: 0rem;
+    nav {
+      margin-left: 7rem;
+      height: 7.8rem;
+      a {
+        font-size: x-small;
+        &+a {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}
