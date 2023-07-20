@@ -3,7 +3,7 @@ import { GetStaticProps } from "next";
 
 import { Image } from "react-bootstrap";
 import styles from "./page.module.css"
-import { Divider, Row } from "antd";
+import { Divider, Row } from 'antd';
 import { roboto_mono } from './fonts'
 import Col from 'react-bootstrap/Col';
 import * as prismic from "@prismicio/client";
