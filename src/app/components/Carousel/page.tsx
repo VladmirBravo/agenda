@@ -3,7 +3,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import styles from './styles.module.scss';
 
-export function CarouselComponent() {
+export default function CarouselComponent() {
   return (
     <>
       <div className={styles.carouselContainer}>

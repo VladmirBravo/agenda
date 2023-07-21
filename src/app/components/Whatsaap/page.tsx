@@ -1,5 +1,6 @@
 import { FaWhatsapp } from 'react-icons/fa';
 import styles from '@/app/components/Whatsaap/styles.module.scss'
+
 const BotaoWhatsApp = () => {
   const handleClick = () => {
     // Número de telefone ou link para o WhatsApp
