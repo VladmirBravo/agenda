@@ -2,7 +2,7 @@ import  { ReactElement, cloneElement }  from 'react';
 import { usePathname } from 'next/navigation'
 import Link, {  LinkProps } from 'next/link'
 
-interface ActiveLinkProps extends LinkProps{
+export default interface ActiveLinkProps extends LinkProps{
   children: ReactElement;
   activeClassName: string;
 }
