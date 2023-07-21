@@ -2,7 +2,7 @@ import { Image } from "react-bootstrap";
 import styles from './styles.module.scss';
 import Nav from 'react-bootstrap/Nav';
 import Link from "next/link";
-import { ActiveLink } from "../ActiveLink/page";
+import ActiveLink  from "../ActiveLink/page";
 
 export function Header() {
   return (

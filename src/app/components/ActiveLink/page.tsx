@@ -7,7 +7,7 @@ interface ActiveLinkProps extends LinkProps{
   activeClassName: string;
 }
 
-export function ActiveLink ({ children, activeClassName, ...rest }: ActiveLinkProps){
+export default function ActiveLink ({ children, activeClassName, ...rest }: ActiveLinkProps){
   const pathname = usePathname()
   //Se a rota/pagina que estamos a acessar for igual ao link então ativamos a class
   const className = pathname === rest.href ? activeClassName : '';
