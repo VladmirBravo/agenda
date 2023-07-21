@@ -3,7 +3,7 @@
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Inter, Montserrat } from 'next/font/google'
-import { Header } from "./components/Header/page";
+import Header  from "./components/Header/page";
 import '../app/styles/global.scss'
 import Head from "next/head";
 

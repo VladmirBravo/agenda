@@ -11,7 +11,7 @@ import { RichText } from "prismic-reactjs";
 import { useState } from "react";
 import React from "react";
 import BotaoWhatsApp from "./components/Whatsaap/page";
-import { Rodape } from "./components/Rodape/page";
+import Rodape  from "./components/Rodape/page";
 export default async function Home() {
   const client = prismic.createClient("https://agend.cdn.prismic.io/api/v2");
   const response = await client.getAllByType("post", {

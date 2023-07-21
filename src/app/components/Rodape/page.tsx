@@ -2,7 +2,7 @@ import { Image } from "react-bootstrap";
 import BotaoWhatsApp from "../Whatsaap/page";
 import styles from "./styles.module.scss"
 
-export function Rodape() {
+export default function Rodape() {
     return (
         <>
             <div className={styles.divContainer1}>

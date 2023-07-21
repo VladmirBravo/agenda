@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Link from "next/link";
 import ActiveLink  from "../ActiveLink/page";
 
-export function Header() {
+export default function Header() {
   return (
     <>
       <header className={styles.headerContainer}>
