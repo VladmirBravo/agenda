@@ -1,4 +1,4 @@
-import CarouselComponent from '@/app/components/Carousel/page';
+import CarouselComponent from '@/components/Carousel/page';
 
 export default function Faq() {
     return (

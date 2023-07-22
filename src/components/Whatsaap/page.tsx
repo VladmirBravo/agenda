@@ -1,5 +1,5 @@
 import { FaWhatsapp } from 'react-icons/fa';
-import styles from '@/app/components/Whatsaap/styles.module.scss'
+import styles from '@/components/Whatsaap/styles.module.scss'
 
 const BotaoWhatsApp = () => {
   const handleClick = () => {
