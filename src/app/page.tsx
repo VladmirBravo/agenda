@@ -47,8 +47,8 @@ export default async function Home() {
         ></Image>
       </div>
 
-      <div>
-        <Image className={styles.imgProg}
+      <div className={styles.imgProg}>
+        <Image 
           width="93.8%"
           alt=""
           src="/Programa.svg"
