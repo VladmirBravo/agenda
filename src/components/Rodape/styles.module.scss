@@ -64,3 +64,24 @@
       transform: translate(-50%, -50%);
    }
  }
+
+ //Mobile
+@media (max-width: 414px) {
+   .divContainer1{
+      margin-left: 10px; 
+   }
+
+   .img{
+      width: 450px;
+      height: 30rem;
+      margin-left: -55px;
+      
+   }
+
+   .divIcon{
+      position: absolute;
+      top: 1100px;
+      left: 110%;
+      transform: translate(-50%, -50%);
+   }
+ }
