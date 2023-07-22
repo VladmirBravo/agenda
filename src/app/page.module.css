@@ -46,18 +46,20 @@
   margin-left: 15rem;
 }
 
-@media (max-width: 392px) {
+@media (max-width: 414px) {
 
   .imgCentro {
     height: 20.5rem;
-    width: 460px;
-    margin-left: -2.6rem;
+    width: 579px;
+    margin-left: -5rem;
   }
 
   .imgProg{
     height: 5rem;
     margin-left: -3rem;
     width: 500px;
+    
+    
   }
 
   .divisor{
@@ -78,20 +80,18 @@
   
 }
 
-@media (max-width: 414px) {
+@media (max-width: 392px) {
 
   .imgCentro {
     height: 20.5rem;
-    width: 579px;
-    margin-left: -5rem;
+    width: 460px;
+    margin-left: -2.6rem;
   }
 
   .imgProg{
     height: 5rem;
     margin-left: -3rem;
     width: 500px;
-    
-    
   }
 
   .divisor{
