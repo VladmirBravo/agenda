@@ -11,10 +11,19 @@
    
 }
 
-@media (max-width: 1480px) {
+@media (max-width: 1538px) {
    .divIcon{
       position: absolute;
-      top: 1930px;
+      top: 2300px;
+      left: 100%;
+      transform: translate(-50%, -50%);
+   }
+}
+
+@media (max-width: 1483px) {
+   .divIcon{
+      position: absolute;
+      top: 2200px;
       left: 100%;
       transform: translate(-50%, -50%);
    }
@@ -27,22 +36,22 @@
       transform: translate(-50%, -50%);
    }
 }
-@media (max-width: 1397px) {
+@media (max-width: 1398px) {
    .divIcon{
       position: absolute;
-      top: 1880px;
+      top: 2300px;
       left: 100%;
       transform: translate(-50%, -50%);
    }
 }
-// @media (max-width: 383px) {
-//    .divIcon{
-//       position: absolute;
-//       top: 1000px;
-//       left: 120%;
-//       transform: translate(-50%, -50%);
-//    }
-// }
+@media (max-width: 383px) {
+   .divIcon{
+      position: absolute;
+      top: 1000px;
+      left: 120%;
+      transform: translate(-50%, -50%);
+   }
+}
 
  //Mobile
  @media (max-width: 414px) {

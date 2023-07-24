@@ -32,6 +32,7 @@
       transition: color 0.3s;
       text-decoration: none;
       color: white;
+      font-size: larger;
 
       &+a {
         margin-left: 10rem;
@@ -93,6 +94,17 @@
   }
 }
 
+@media (max-width: 1538px) {
+  .divMenu {
+    height: 3.5rem;
+
+    nav {
+      margin-left: 25rem;
+    }
+  }
+
+}
+
 @media (max-width: 1170px) {
   .headerContainer {
     //controle da altura entre o menu e o conteudo abaixo
@@ -124,10 +136,10 @@
     height: 3rem;
     margin-left: 0rem;
     nav {
-      margin-left: 9rem;
-      height: 7.8rem;
+      margin-left: 5rem;
+      height: 7.5rem;
       a {
-        font-size: x-small;
+        font-size: medium;
         &+a {
           margin-left: 1rem;
         }
@@ -149,10 +161,10 @@
     height: 3rem;
     margin-left: 0rem;
     nav {
-      margin-left: 7rem;
-      height: 7.8rem;
+      margin-left: 2.5rem;
+      height: 7.5rem;
       a {
-        font-size: x-small;
+        font-size: medium;
         &+a {
           margin-left: 1rem;
         }
@@ -160,3 +172,4 @@
     }
   }
 }
+
