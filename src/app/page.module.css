@@ -46,6 +46,15 @@
   margin-left: 15rem;
 }
 
+/* @media (max-width: 1920px) {
+  .imgProg{
+    margin-left: 35rem;
+    margin-top: 7rem;
+    height: 15rem;
+  }
+
+} */
+
 @media (max-width: 414px) {
 
   .imgCentro {
@@ -64,7 +73,7 @@
 
   .divisor{
     height: "100%";
-    margin-left: 15rem;
+    margin-left: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
@@ -96,7 +105,7 @@
 
   .divisor{
     height: "100%";
-    margin-left: 14rem;
+    margin-left: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
