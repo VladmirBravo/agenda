@@ -99,7 +99,7 @@
     height: 3.5rem;
 
     nav {
-      margin-left: 25rem;
+      margin-left: 24rem;
     }
   }
 
@@ -151,7 +151,7 @@
 //Mobile
 @media (max-width: 392px) {
   .img {
-    margin-left: -5rem;
+    margin-left: -4.8rem;
     width: 463px;
     height: auto;
     cursor: pointer;
@@ -161,12 +161,12 @@
     height: 3rem;
     margin-left: 0rem;
     nav {
-      margin-left: 2.5rem;
+      margin-left: 5rem;
       height: 7.5rem;
       a {
         font-size: medium;
         &+a {
-          margin-left: 1rem;
+          margin-left: -1%;
         }
       }
     }
