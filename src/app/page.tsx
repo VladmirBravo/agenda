@@ -75,7 +75,7 @@ export default async function Home() {
           ) : <p></p>)}
         </Col>
 
-        <Col xs lg='1'>
+        <Col xe lg='1'>
         </Col>
 
           {/* Lado Direiro */}
