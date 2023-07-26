@@ -1,33 +1,34 @@
-.carouselContainer{
-    
-    
+.carouselContainer {
     width: 1245px;
-    position: fixed;
+    position: absolute;
     margin-left: auto;
     margin: 89px;
     margin-top: -15px;
 }
 
-.textcolor{
+.textcolor {
     color: black;
 }
 
+@media (max-width: 1128px) {
+    .carouselContainer {
+        position: absolute;
+        width: 62.5rem;
+        margin-top: 83px;
+    }
+  }
+
 @media (max-width: 392px) {
-    .carouselContainer{
+    .carouselContainer {
         width: 30rem;
         height: 400rem;
         margin-left: -25px;
         margin-top: 65px;
     }
 
-    .sizeComponent{
-    height: 170px;
-    width: 440px;
-    background-color: black;
-    
-    
-    
+    .sizeComponent {
+        height: 170px;
+        width: 440px;
+        background-color: black;
+    }
 }
-
-    
-  }

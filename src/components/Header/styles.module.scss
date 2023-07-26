@@ -113,6 +113,17 @@
     top: 0;
   }
 }
+//Mobile
+@media (max-width: 1128px) {
+  .divMenu {
+    height: 3rem;
+    margin-left: 0rem;
+    nav {
+      margin-left: 18rem;
+      height: 8.5rem;
+    }
+  }
+}
 
 @media (max-width: 880px) {
   .headerContainer {
@@ -149,7 +160,7 @@
 }
 
 //Mobile
-@media (max-width: 362px) {
+@media (max-width: 392px) {
   .img {
     margin-left: -4.5rem;
     width: 463px;
@@ -161,7 +172,7 @@
     height: 3rem;
     margin-left: 0rem;
     nav {
-      margin-left: 4rem;
+      margin-left: 5rem;
       height: 7.5rem;
       a {
         font-size: medium;
