@@ -1,7 +1,7 @@
 .carouselContainer {
     width: 1245px;
     position: absolute;
-    margin-left: auto;
+    margin-left: 0 auto;
     margin: 89px;
     margin-top: -15px;
 }
@@ -10,11 +10,27 @@
     color: black;
 }
 
+@media (max-width: 1538px) {
+    .carouselContainer {
+        margin-left: 5.4rem;
+        width: 84.6rem;
+        margin-top: -48.3px;
+    }
+  }
+
 @media (max-width: 1128px) {
     .carouselContainer {
         position: absolute;
         width: 62.5rem;
         margin-top: 83px;
+    }
+  }
+
+  @media (max-width: 824px) {
+    .carouselContainer {
+        margin-left: 2.7rem;
+        width: 49.5rem;
+        margin-top: 110.5px;
     }
   }
 

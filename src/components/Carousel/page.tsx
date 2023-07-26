@@ -22,7 +22,7 @@ export default function CarouselComponent() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="carousel/bolacha.svg"
+              src="carousel/Bolacha.svg"
               alt="Second slide"
             />
 
